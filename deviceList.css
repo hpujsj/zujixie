@@ -8700,8 +8700,8 @@ a {
       -ms-flex: 1;
           flex: 1;
 }
-.flex-container {
-    margin: 0 15px;
+  .flex-container {
+    margin: 0 10px;
   }
   .flex-container .inline {
     width: 80px!important;
@@ -8710,6 +8710,12 @@ a {
   .flex-container .small {
     height: 20px!important;
     line-height: 20px!important;
+  }
+  .flex-container .title_bar {
+    height: 30px!important;
+    line-height: 30px!important;
+    background-color: #ebebef;
+    padding : 2px 2px 0px 0px;
   }
   .sub-title {
     color: #888;
